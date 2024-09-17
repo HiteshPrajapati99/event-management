@@ -21,15 +21,18 @@ Ensure you have the following installed:
 
 ## Backend Setup (Node.js)
 
-1. Run (`npm install`)
-2. Run (`npx prisma migrate dev --name init`)
-3. Run (`npx prisma generate`)
+1. Go To server dir
+2. Run (`npm install`)
+3. Run (`npx prisma migrate dev --name init`)
 4. Run (`npm start`)
+
+## I have provide env with repo so you can replace the database url with you mysql db url for db connection
 
 ## Frontend Setup (React.js)
 
-1. Run (`npm install`)
-2. Run (`npm run dev`)
+1. Go to client dir
+2. Run (`npm install`)
+3. Run (`npm run dev`)
 
 ## Additional Notes
 
